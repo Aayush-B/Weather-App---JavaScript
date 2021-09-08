@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#container #location {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#container input {
+    height: 50px;
+    width: 300px;
+    margin: 0px 20px;
+    padding: 0 20px;
+    border: 1px solid #fff;
+    outline: none;
+    background: #00000050;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#container input::placeholder {
+    color: #000000;
+}
+
+#container input[type="submit"] {
+    width: 150px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#weatherCountry {
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+#temperature {
+    font-size: 45px;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+#temperature b {
+    color: #000000;
+}
+
+#weatherDescription {
+    font-size: 30px;
+    position: absolute;
+    bottom: 23%;
+    left: 43%;
+    text-transform: capitalize;
+}
+
+#container ul {
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+
+#container ul li {
+    font-size: 22px;
+    margin: 20px 0;
+}
